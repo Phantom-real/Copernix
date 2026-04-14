@@ -1750,7 +1750,7 @@ end
 AssetStorage.Fluent = function()
     if Fluent then return; end; GG.Fluent = {};
     local Library, ThemeController = loadstring(request({
-        Url = "https://gitlab.com/cxdnzydev/shared/-/raw/main/Fui.lua",
+        Url = "https://raw.githubusercontent.com/Cxdnzy7exe/All/refs/heads/main/Fui.lua",
         Method = "GET"
     }).Body)()
 
